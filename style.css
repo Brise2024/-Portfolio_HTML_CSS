@@ -1,0 +1,579 @@
+/* header classes starting*/
+h1 h2 h4 {
+  font-weight: bold;
+}
+
+body {  
+    zoom: 45%;
+    height: 40%;
+    width: 70%;
+    font-family: "Verdana", sans-serif;
+    font-size: 30px;
+    border-color: white;
+    border-width: 8px;
+    border-style: solid;
+    padding: 0.7% 3.5% 2.5% 3%;
+    margin: 1% 1% -1% 7%;
+  }
+
+  .menu {
+    display: flex;
+    justify-content: space-between;
+  }
+
+.menu__list {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+  }
+
+  .menu__list a {
+    text-decoration-line: none;
+    color: black;
+  }
+
+.menu__cv {
+  text-decoration-line: none;
+} 
+
+.menu__projets {
+  text-decoration-line: none;
+}
+
+.menu__contact {
+  text-decoration-line: none;
+}
+
+/* header classes ending*/
+
+main {
+    display: grid;
+    grid-template-columns: 35% 5% 60%;
+    margin: 8% 7% 7% 10%;
+  }
+
+main img {
+    height: 60% ;
+    width: 100% ;
+    border-radius: 100%;
+    border-style: solid;
+    border-width: 50%;
+    border-color: white;
+ }
+
+main p {
+    line-height: 1.7;
+ }
+
+main ul {
+  gap: 1rem;
+}
+
+.linkint {
+    display: flex;
+    list-style-type: none;
+    gap: 4rem;
+    margin-top: 5% ;
+    text-align: center;
+  }
+
+.linkint a {
+  text-decoration-line: none;
+  color: black;
+}
+
+.linkint__cv {
+    text-decoration-line: none;
+    font-weight: bold;
+    font-size: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(46, 94%, 58%);
+    border-radius: 100%;
+    border-width: 0.5px;
+    border-color:rgb(124, 123, 123); 
+    border-style: groove; 
+    width: 140px;
+    height: 140px;
+ }
+
+.linkint__pro {
+    text-decoration-line: none;
+    text-decoration-color: black;
+    font-weight: bold;
+    font-size: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(202, 67, 67);
+    border-radius: 100%;
+    border-width: 0.5px;
+    border-color: rgb(124, 123, 123);  
+    border-style: groove; 
+    width: 140px;
+    height: 140px;
+ }
+
+.linkint__cont {
+    text-decoration-line: none;
+    font-weight: bold;
+    font-size: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(163, 216, 223);
+    border-radius: 100%; 
+    border-width: 0.5px;
+    border-color: rgb(124, 123, 123); 
+    border-style: groove; 
+    width: 140px;
+    height: 140px;
+ }
+
+
+
+ /* footer classes starting*/
+footer section {
+  display: flex;
+  justify-content: space-around;
+  gap: 5%;
+  margin: -12% 4% -1% 4%;
+  border-top-style: groove;
+  border-width: 5px;
+  border-color: rgb(950, 250, 250);
+  font-size: 80%;
+ }
+
+.tel {
+  display: flex;
+  justify-content: left;
+}
+
+.blocmail {
+  text-align: left;
+}
+
+.email {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+}
+
+.email__live {
+  text-decoration-line: none;
+}
+
+.email__gmail {
+  text-decoration-line: none;
+}
+
+footer img {
+  height: 40px;
+  width: 40px;
+  gap: 2500px;
+
+}
+ /* footer classes ending*/
+
+/* media query config upto 400px */
+@media screen and (max-width: 400px) {
+  .menu {
+    display: block;
+  }
+
+  .menu__list {
+    font-size: 90%;
+  }
+
+  .menu h2 {
+    text-align: center;
+  }
+
+  .menu__list a {
+    text-align: center;
+  }
+
+  main {
+    display: block;
+  }
+
+ .hello {
+    text-align: justify;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+
+  .hello p {
+    font-size: 80%;
+    text-align: justify;
+  }
+
+  .linkint {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-left: 10%;
+  }
+
+  .linkint__cont {
+    margin-top: 2%;
+  }
+
+  .linkint__pro {
+    margin-top: 2%;
+  }
+
+  footer p {
+    text-align: justify;
+    margin-left: 20%;
+    margin-right: 5%;
+  }
+  footer section {
+    display: block;
+    align-items: justify;
+    font-size: 65%;
+    margin-top: 3%;
+  }
+
+  .divicon p {
+    justify-content: left;
+    align-items: left;
+    }
+
+    footer img {
+      text-align: center;
+      margin: 0 -7% 0 17%;
+      height: 35px;
+      width: 35px;
+    }
+  }
+
+
+/* media query config from 401px to 600px */
+@media screen and (max-width: 600px) and (min-width: 401px)  {
+
+  header h2 {
+    padding-top: -3%;
+    font-size: 120%;
+  }
+
+  header ul {
+    padding-top: 2%;
+    font-size: 90%;
+  }
+
+  .menu {
+    display: flex;
+    align-items: right;
+    font-size: 85%;
+  }
+
+  .menu__list {
+    font-size: 85%;
+  }
+
+  .menu__list a {
+    text-align: right;
+  }
+
+  main {
+    display: block;
+  }
+
+  main img {
+    /* margin-left: 3%; */
+    align-items: center;
+    height: 50% ;
+    width: 80% ;
+    border-radius: 100%;
+    border-style: solid;
+    border-width: 50%;
+    border-color: white;
+  }
+
+ .hello {
+    text-align: justify;
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+
+  .hello p {
+    font-size: 80%;
+    text-align: justify;
+  }
+
+  .linkint {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-left: 25%;
+  }
+
+  .linkint__cont {
+    margin-top: 2%;
+  }
+
+  .linkint__pro {
+    margin-top: 2%;
+  }
+
+  footer p {
+    text-align: justify;
+    margin-left: 20%;
+    margin-right: 5%;
+  }
+
+  footer section {
+    display: block;
+    font-size: 80%;
+    margin-top: 3%;
+  }
+
+  .tel {
+    justify-content: left;
+  }
+  
+  .blocmail {
+    text-align: left;
+  }
+  
+  .email {
+    justify-content: left;
+    align-items: left;
+  }
+
+  footer img {
+    text-align: center;
+    margin: 0 5% 0 12%;
+    height: 40px;
+    width: 40px;
+  }
+
+}
+
+
+/* media query config from 601px to 730px */
+@media screen and (max-width: 730px) and (min-width: 601px) {
+  body {
+    margin-left: 8%;
+    margin-right: 5%;
+  }
+
+  .menu {
+    font-size: 90%;
+  }
+
+  .menu__list {
+    font-size: 90%;
+  }
+
+  .menu__list a {
+    text-align: center;
+  }
+
+  main img {
+    height: 90% ;
+    width: 110% ;
+    border-radius: 100%;
+    border-style: solid;
+    border-width: 50%;
+    border-color: white;
+ }
+
+ main {
+  display: grid;
+  grid-template-columns: 35% 10% 55%;
+  margin: 5% 0 15% 5%;
+}
+
+.hello p {
+    font-size: 62%;
+    text-align: justify;
+  }
+
+  .linkint {
+    display: flex;
+    list-style-type: none;
+    gap: 2rem;
+    margin-top: 5% ;
+    text-align: right;
+  }
+
+  .linkint__cv {
+    text-decoration-line: none;
+    font-weight: bold;
+    font-size: 50%;
+    display: flex;
+    background-color: hsl(46, 94%, 58%);
+    border-radius: 100%;
+    border-width: 0.5px;
+    border-color:rgb(124, 123, 123); 
+    border-style: groove; 
+    width: 110px;
+    height: 110px;
+ }
+
+.linkint__pro {
+    text-decoration-line: none;
+    font-weight: bold;
+    font-size: 50%;
+    display: flex;
+    background-color: rgb(202, 67, 67);
+    border-radius: 100%;
+    border-width: 0.5px;
+    border-color: rgb(124, 123, 123);  
+    border-style: groove; 
+    width: 110px;
+    height: 110px;
+ }
+
+.linkint__cont {
+    text-decoration-line: none;
+    font-weight: bold;
+    font-size: 50%;
+    display: flex;
+    background-color: rgb(163, 216, 223);
+    border-radius: 100%; 
+    border-width: 0.5px;
+    border-color: rgb(124, 123, 123); 
+    border-style: groove; 
+    width: 110px;
+    height: 110px;
+ }
+ 
+footer section {
+  display: flex;
+  justify-content: space-between;
+  gap: 3%;
+  margin: -10% 2% -1% 2%;
+  border-top-style: groove;
+  border-width: 5px;
+  border-color: rgb(950, 250, 250);
+  font-size: 60%;
+ }
+
+
+ footer img {
+  height: 20px;
+  width: 20px;
+  gap: 1000px;
+
+}
+
+}
+
+/* media query config from 731px to 12000px */
+
+
+
+/* media query config from 601px to 730px */
+
+
+/* border-top-style: <line-style>
+border-right-style: <line-style>
+border-bottom-style: <line-style>
+border-left-style: <line-style> 
+
+border-style = <line-style> 
+
+<line-style> = 
+  none    |
+  hidden  |
+  dotted  |
+  dashed  |
+  solid   |
+  double  |
+  groove  |
+  ridge   |
+  inset   |
+  outset 
+*/
+
+
+/* CSS STYLE FOR MAIN IN CV FILE */
+/*-------------------------------*/
+
+ .maincv {
+  display: block;
+  margin-top: 4%;
+  margin-left: 3%;
+}
+
+.maincv h1 {
+  text-align: center;
+}
+
+.footer_cv {
+  margin-top: 20%;
+ } 
+
+/* CSS STYLE CONFIG FOR CONTACT FILE */
+/*-------------------------------*/
+
+.main_contact {
+  margin: 5% 3% 5% 7%;
+  display: flex;
+  justify-content: space-around;
+  display: grid ;
+  grid-template-columns: 50% 25% 25%;
+  font-size: 90%;
+}
+
+.main_par1 p {
+  line-height: 0.3;
+}
+
+.labfn {
+  height: 9%;
+  width: 70%;
+ }
+
+.labmail {
+  height: 9%;
+  width: 70%;
+}
+
+.labln {
+  height: 9%;
+  width: 70%;
+}
+
+.textar {
+  height: 35%;
+  width: 70%;
+
+}
+
+.labsubj {
+  height: 9%;
+  width: 70%;
+}
+
+.main_par3 {
+  margin-left: -20%;
+}
+
+
+.button {
+  margin-left: -1%;
+  margin-top: 13%;
+  background-color: hsl(36, 72%, 55%);
+  border-radius: 100%;
+  border-width: 0.5px;
+  border-style: groove; 
+  width: 230px;
+  height: 230px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+
+ 
+
+.footer_contact {
+  margin-top: 20%;
+ } 
